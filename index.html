@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+
+<head>   
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=], initial-scale=1.0">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Telefônica</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/icon.png">
-    
-    
-    <title>Lista telefônica</title>
 </head>
-<body>
-
+<body> 
+    <header>
+        <h1>Lista Telefônica</h1>
+    </header> 
+    <section>   
+        <div id="img"  >
+            <img src="./images/icon.png" alt="logo de lista telefônica"/>
+            <h2>Lista de contatos</h2>
+        </div>       
+        <div id="tabela">
+            <form id="formAtividade" >
+                <input type="text" id="nomeContato" placeholder="Nome do contato" required>
+                <input type="number" id="numeroContato" placeholder="Número do contato" required min="0" max="11">
+                <button type="submit" id="submit">Adicionar +</button>
+            </form>
+            <table cellspacing="0" >
+                <thead>
+                    <tr>
+                        <th>Nome de contato</th>
+                        <th>Número de telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <th>Teste da Silva</th>
+                    <th>11986539150</th>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total de contatos</td>
+                        <td id="media-final-valor" >---</td>
+                    </tr>
+                </tfoot>
+            </table>    
+        </div>
+    </section>
+    <footer>        
+        <p>&copy; Guilherme Oliveira</p>    
+    </footer>
     
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
