@@ -85,3 +85,9 @@ table tbody tr th {
     color: #524f4f;
     font-size: 15px;
 }
+
+table tfoot tr td {
+    padding-top: 20px;
+    font-weight: bolder;
+    color: rgb(129, 129, 129);
+}
