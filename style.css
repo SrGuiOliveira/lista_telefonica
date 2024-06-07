@@ -44,6 +44,10 @@ footer {
     text-align: center;
 }
 
+form input::placeholder {
+    text-align: center;
+}
+
 form input {
     width: 170px;
     height: 25px;
@@ -63,6 +67,21 @@ form input {
 table {
     margin: 8px auto;
     text-align: center;
-    align-items: center;
     
+}
+
+table thead tr th {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 35px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+
+}
+
+table tbody tr th {
+    padding-top: 20px;
+    color: #524f4f;
+    font-size: 15px;
 }
